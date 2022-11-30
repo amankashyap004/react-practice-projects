@@ -5,6 +5,7 @@ import Greeting from "./component/Greeting";
 import UseStateCounter from "./component/UseStateCounter";
 import TernaryOperatorPractice from "./component/TernaryOperatorPractice";
 import AddItems from "./component/AddItems"
+import ToggleFavoriteCard from "./component/ToggleFavoriteCard";
 
 function App() {
    return (
@@ -15,6 +16,7 @@ function App() {
          <UseStateCounter />
          <TernaryOperatorPractice />
          <AddItems/>
+         <ToggleFavoriteCard />
       </div>
    );
 }
