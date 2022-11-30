@@ -20,12 +20,13 @@ body {
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   border-bottom: 2px solid rgb(212, 209, 209);
 }
 
 .btn {
    padding: .8rem 2rem;
    background-color: rgb(255, 34, 0);
-   color: black;
+   color: white;
    border: none;
    border-radius: 8px;
    cursor: pointer;
