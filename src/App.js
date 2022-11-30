@@ -3,6 +3,7 @@ import Header from "./component/Header";
 import EventListener from "./component/EventListener"
 import Greeting from "./component/Greeting";
 import UseStateCounter from "./component/UseStateCounter";
+import TernaryOperatorPractice from "./component/TernaryOperatorPractice";
 
 function App() {
    return (
@@ -11,6 +12,7 @@ function App() {
          <Greeting />
          <EventListener />
          <UseStateCounter />
+         <TernaryOperatorPractice />
       </div>
    );
 }
