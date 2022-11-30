@@ -9,13 +9,13 @@ export default function UseStateCounter() {
       //     return oldValue+1
       // })
       //OR
-      setCount((prevCount) => prevCount + 1);
+      setCount((prevCount) => prevCount - 1);
    }
 
    function add() {
       //   setCount(count + 1);
 
-      setCount((prevCount) => prevCount - 1);
+      setCount((prevCount) => prevCount + 1);
    }
 
    return (
