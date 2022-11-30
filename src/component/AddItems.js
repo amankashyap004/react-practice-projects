@@ -1,25 +1,24 @@
 import React from "react";
 
-export default function EventListener() {
-   const [things, setThings] = React.useState(["Thing 1", "Thing 2"]);
-   
-   function addItems() {
-      const newThingText = `Thing ${things.length + 1}`;
-      // thingsArray.push(newThingText);
-      // console.log(thingsArray);
-      setThings(prevState => [...prevState, newThingText])
+export default function AddItems() {
+   const [thingsArray, setThingsArray] = React.useState(["Thing 1", "Thing 2"]);
+
+   function addThings() {
+      setThingsArray((prevThingsArray) => [...prevThingsArray, `Thing ${thingsArray.length + 1}`]);
    }
-   
-   const thingsElements = things.map((thing) => <p key={thing}>{thing}</p>);
+
+   const thingsElements = thingsArray.map((thing) => <p key={thing}>{thing}</p>);
+
    return (
       <div className="container">
          <section className="add-items">
             <h3 className="heading">Add Item</h3>
-
-            <button onClick={addItems} className="btn add-items-btn">
+            <button onClick={addThings} className="btn add-items-btn">
                Add Things
             </button>
-            <div className="add-items-contain">{thingsElements}</div>
+            <div className="add-items-contain">
+               {thingsElements}
+            </div>
          </section>
       </div>
    );
