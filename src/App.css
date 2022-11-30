@@ -62,3 +62,35 @@
 .greeting-text {
    color: green;
 }
+
+/* useState counter */
+
+.use-state-counter {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.use-state-counter-container {
+   padding: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.use-state-counter-btn {
+   font-size: 1.5rem;
+   margin: 0 0.5rem;
+}
+
+.use-state-counter-box {
+   width: 100px;
+   height: 50px;
+   border: 2px solid red;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.5rem;
+}
