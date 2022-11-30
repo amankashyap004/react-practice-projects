@@ -1,0 +1,39 @@
+/* Header */
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(2, 2, 80);
+}
+
+.header-heading{
+  padding: 1.5rem 0;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Event Listener */
+
+.event-listener{
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.event-listener-img{
+  margin: .5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.event-listener-img:hover{
+  filter: brightness(50%);
+}
+
+.event-listener-btn{
+  margin: 1rem 0;
+}
+
