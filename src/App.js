@@ -13,11 +13,11 @@ function App() {
       <div className="App">
          <Header />
          <Greeting />
-         {/* <EventListener />
+         <EventListener />
          <UseStateCounter />
          <TernaryOperatorPractice />
          <AddItems/>
-         <ToggleFavoriteCard /> */}
+         <ToggleFavoriteCard />
          <Boxes />
       </div>
    );
