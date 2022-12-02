@@ -7,18 +7,20 @@ import TernaryOperatorPractice from "./component/TernaryOperatorPractice";
 import AddItems from "./component/AddItems"
 import ToggleFavoriteCard from "./component/ToggleFavoriteCard";
 import Boxes from "./component/boxesChallenge/Boxes";
+import JokesSetupWithPunchline from "./component/jokesSetupWithPunchline/JokesSetupWithPunchline";
 
 function App() {
    return (
       <div className="App">
          <Header />
          <Greeting />
-         <EventListener />
+         {/* <EventListener />
          <UseStateCounter />
          <TernaryOperatorPractice />
-         <AddItems/>
+         <AddItems />
          <ToggleFavoriteCard />
-         <Boxes />
+         <Boxes /> */}
+         <JokesSetupWithPunchline />
       </div>
    );
 }
