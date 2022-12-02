@@ -250,3 +250,87 @@
    font-size: 0.9rem;
    font-weight: 500;
 }
+
+/* Forms */
+
+.forms-container {
+   padding: 1rem 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.forms-contain-body {
+   padding: 1rem 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border: 2px solid gray;
+   width: 500px;
+   border-radius: 5px;
+   box-shadow: 0 0 2px 1px rgb(56, 56, 56);
+}
+
+.input {
+   border: 2px solid rgb(23, 0, 128);
+   padding: 0.7rem;
+   margin: 0.5rem 1rem;
+   border-radius: 5px;
+   width: 300px;
+   outline: none;
+   font-size: 1rem;
+}
+
+.input-body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.checkbox {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   width: 100%;
+   padding: 0.5rem 1rem;
+}
+
+.checkbox-input {
+   margin-right: 0.5rem;
+   width: 1rem;
+   height: 1rem;
+}
+
+.label-text {
+   font-size: 1rem;
+   font-weight: 600;
+}
+
+.radio-button-input {
+   margin-right: 0.5rem;
+   margin-left: 1rem;
+   width: 1rem;
+   height: 1rem;
+}
+
+.select-and-option {
+   margin-top: 0.5rem;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   flex-direction: column;
+}
+
+.select-and-option-input {
+   padding: 0.7rem;
+   margin: 0;
+}
+
+.form-btn {
+   margin-top: 2rem;
+   background-color: rgb(23, 0, 128);
+   border: none;
+}

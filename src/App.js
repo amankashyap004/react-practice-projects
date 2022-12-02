@@ -8,19 +8,21 @@ import AddItems from "./component/AddItems"
 import ToggleFavoriteCard from "./component/ToggleFavoriteCard";
 import Boxes from "./component/boxesChallenge/Boxes";
 import JokesSetupWithPunchline from "./component/jokesSetupWithPunchline/JokesSetupWithPunchline";
+import Forms from "./component/reactForms/Forms";
 
 function App() {
    return (
       <div className="App">
          <Header />
          <Greeting />
-         {/* <EventListener />
+         <EventListener />
          <UseStateCounter />
          <TernaryOperatorPractice />
          <AddItems />
          <ToggleFavoriteCard />
-         <Boxes /> */}
+         <Boxes />
          <JokesSetupWithPunchline />
+         <Forms />
       </div>
    );
 }
