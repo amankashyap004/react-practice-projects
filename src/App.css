@@ -365,3 +365,30 @@
    border-radius: 5px;
    box-shadow: 0 0 3px 1px rgb(36, 35, 35);
 }
+
+/* Window Tracker */
+
+.window-tracker {
+   padding: 1rem 0;
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   flex-direction: column;
+   background-color: rgb(162, 104, 224);
+   width: 100%;
+}
+
+.window-tracker-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.window-width {
+   padding: 1rem;
+}
+
+.window-tracker-btn {
+   margin-top: 1rem;
+}

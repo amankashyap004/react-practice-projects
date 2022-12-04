@@ -10,6 +10,7 @@ import Boxes from "./component/boxesChallenge/Boxes";
 import JokesSetupWithPunchline from "./component/jokesSetupWithPunchline/JokesSetupWithPunchline";
 import Forms from "./component/reactForms/Forms";
 import StarWarsAPI from "./component/makingApiCalls/StarWarsAPI";
+import WindowTracker from "./component/windowTracker/WindowTracker";
 
 function App() {
    return (
@@ -25,6 +26,7 @@ function App() {
          <JokesSetupWithPunchline />
          <Forms />
          <StarWarsAPI />
+         <WindowTracker />
       </div>
    );
 }
