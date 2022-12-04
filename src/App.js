@@ -9,6 +9,7 @@ import ToggleFavoriteCard from "./component/ToggleFavoriteCard";
 import Boxes from "./component/boxesChallenge/Boxes";
 import JokesSetupWithPunchline from "./component/jokesSetupWithPunchline/JokesSetupWithPunchline";
 import Forms from "./component/reactForms/Forms";
+import StarWarsAPI from "./component/makingApiCalls/StarWarsAPI";
 
 function App() {
    return (
@@ -23,6 +24,7 @@ function App() {
          <Boxes />
          <JokesSetupWithPunchline />
          <Forms />
+         <StarWarsAPI />
       </div>
    );
 }

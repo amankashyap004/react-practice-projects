@@ -334,3 +334,34 @@
    background-color: rgb(23, 0, 128);
    border: none;
 }
+
+/* Making API Calls */
+
+.star-wars-api {
+   padding: 1rem 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.star-wars-api-container {
+   display: flex;
+   flex-direction: column;
+}
+
+.star-wars-api-count-text {
+   margin: 0.5rem 0;
+   font-size: 1.2rem;
+   color: rgb(0, 24, 163);
+}
+
+.star-wars-api-prev {
+   padding: 1rem 0;
+   border: 2px solid rgb(78, 78, 78);
+   padding: 1rem;
+   margin: 1rem 0;
+   width: 500px;
+   border-radius: 5px;
+   box-shadow: 0 0 3px 1px rgb(36, 35, 35);
+}
