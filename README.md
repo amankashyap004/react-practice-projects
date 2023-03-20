@@ -45,3 +45,31 @@ In this project, you used the Marvel Characters API to create a feature that dis
 To achieve this, you likely used the Marvel Characters API to fetch data about Marvel characters, and then used the **'useEffect'** hook to manage the state of the component that displays the characters data. With **'useEffect'**, you could ensure that the data is only fetched once when the component mounts, and that subsequent updates to the data are reflected in the component state.
 
 Overall, this project helped you practice using the **'fetch'** API, rendering dynamic data to the user interface, and managing component side effects with the **'useEffect'** hook.
+
+## Installation
+
+1. Clone the repository to your local machine using the command:
+
+```bash
+git clone https://github.com/amankashyap004/react-practice-projects.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd react-practice-projects
+```
+
+3. Install the necessary dependencies using a package manager like **'npm'** or **'yarn'**:
+
+```bash
+npm install
+```
+
+4. Start the development server using the following command:
+
+```bash
+npm start
+```
+
+5. Open http://localhost:3000 to view the application in your browser.
